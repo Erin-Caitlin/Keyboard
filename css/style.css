@@ -1,0 +1,58 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+GridParent{
+    width: 100px;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    border: 1px solid black;
+ 
+}
+
+:root{
+    --primary: white;
+    --secondary: rgb(195, 35, 35, 0.69);
+    --alternative: brown;
+    --awesome: beige;
+    --borderColor: black;
+}
+
+body{
+    background-color: var(--primary);
+    color: var(--awesome);
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+}
+
+button{
+    width: 50px;
+    border-radius: 8px;
+    background-color: var(--awesome);
+}
+
+.key{width: fit-content;
+    background-color: brown;
+    margin-inline: 0;
+    border-radius: 30px;
+}
+
+P{
+    font-size: 5px;
+}
+
+button[data-window-key]{
+    width: fit-content;
+    object-fit: 1/1
+}
+.Spacebar{
+    grid-column: 5; span 3;
+}
