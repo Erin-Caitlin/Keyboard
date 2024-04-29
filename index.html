@@ -8,9 +8,11 @@
 </head>
 <body>
     <h2> Erin's Keyboard</h2>
-    <div class="key">
-    
-        <div>
+    <div class="container">
+        <input type="text" class="screen">
+        <!-- <form><input type="text" readonly placeholder="Type here" data-output></form>
+         -->
+         <div class="row one">
             <button class="">Esc</button>
             <button class="">F1</button>
             <button class="">F2</button>
@@ -24,15 +26,15 @@
             <button class="">F10</button>
             <button class="">F11</button>
             <button class="">F12</button>
-            <button class="">Insert</button>
-            <button class="">PrtSc</button>
-            <button class="">Delete</button>
-            <button class="">pause/play</button>
-            <button class="">stop</button>
-            <button class="">rewind</button>
-            <button class="">fast forward</button>
+            <button class="Insert">Insert</button>
+            <button class="PrtSc">PrtSc</button>
+            <button class="Delete">Delete</button>
+            <button class="play-pause maintain"><i class="bi bi-play"></i>/<i class="bi bi-pause"></i></button>
+            <button class="stop"><i class="bi bi-stop"></i></button>
+            <button class="rewind"><i class="bi bi-rewind"></i></button>
+            <button class="f.f"><i class="bi bi-fast-forward"></i></button>
         </div>
-        <div>
+        <div class="row two">
             <button class="">~</button>
             <button class="">1</button>
             <button class="">2</button>
@@ -46,15 +48,15 @@
             <button class="">0</button>
             <button class="">-</button>
             <button class="">=</button>
-            <button class="">Backspace</button>
-            <button class="">NumLock</button>
+            <button class="Backspace maintain">Backspace</button>
+            <button class="NumLock maintain">NumLock</button>
             <button class="">/</button>
             <button class="">*</button>
             <button class="">-</button>
             
         </div>
-        <div>
-            <button class="">Tab</button>
+        <div class="row three">
+            <button class="Tab">Tab</button>
             <button class="">Q</button>
             <button class="">W</button>
             <button class="">E</button>
@@ -73,8 +75,8 @@
             <button class="">9</button>
             <button class="">+</button>
         </div>
-        <div>
-            <button class="">CapsLk</button>
+        <div class="row four">
+            <button class="CapsLk maintain">CapsLk</button>
             <button class="">A</button>
             <button class="">S</button>
             <button class="">D</button>
@@ -86,14 +88,14 @@
             <button class="">L</button>
             <button class="">:</button>
             <button class="">"</button>
-            <button class="">Enter</button>
+            <button class="Enter1">Enter</button>
             <button class="">4</button>
             <button class="">5</button>
             <button class="">6</button>
             <button class=""></button>
         </div>
-        <div>
-            <button class="">Shift</button>
+        <div class="row five">
+            <button class="Shift1">Shift</button>
             <button class="">Z</button>
             <button class="">X</button>
             <button class="">C</button>
@@ -110,18 +112,20 @@
             <button class="">3</button>
             <button class="Enter">Enter</button>
         </div>
-        <div>
+        <div class="row six">
             <button class="Ctrl">Ctrl</button>
             <button class="">Fn</button>
-            <button class="" data-window-key><i class="bi bi-microsoft"></i></button>
+            <button class="" data-window-key><i class="bi bi-windows"></i></i></button>
             <button class="">Alt</button>
-            <button class="Spacebar">Spacebar</button>
+            <button class="Spacebar"></button>
             <button class="">Alt</button>
             <button class="">Ctrl</button>
-            <button class="">arrows</button>
+            <button class="Arrows"><i class="bi bi-arrow-left-short"></i></button>
+            <button class="arrows-up-down"><i class="bi bi-arrow-up-short"></i></button>
+            <button><i class="bi bi-arrow-down-short"></i></button>
+            <button><i class="bi bi-arrow-right-short"></i></button>
             <button class="">0</button>
             <button class="">.</button>
-            <button class=""></button>
         </div>
     </div>
 </body>
